@@ -1,0 +1,11 @@
+.header{
+    height: 80vh;
+    background-image: url("../../img/jeshoots-com-eCktzGjC-iU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    // clip-path: polygon(0 0, 100% 0, 100% 90, 0 100%);
+    animation-name: moveInBottom;
+    animation-duration: 2s
+}
