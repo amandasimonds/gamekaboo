@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gamekaboo/static/css/main.572a6e99.chunk.css",
+    "main.js": "/gamekaboo/static/js/main.05cf8d85.chunk.js",
+    "main.js.map": "/gamekaboo/static/js/main.05cf8d85.chunk.js.map",
+    "runtime-main.js": "/gamekaboo/static/js/runtime-main.d1f0fe41.js",
+    "runtime-main.js.map": "/gamekaboo/static/js/runtime-main.d1f0fe41.js.map",
+    "static/js/2.d52c374a.chunk.js": "/gamekaboo/static/js/2.d52c374a.chunk.js",
+    "static/js/2.d52c374a.chunk.js.map": "/gamekaboo/static/js/2.d52c374a.chunk.js.map",
+    "index.html": "/gamekaboo/index.html",
+    "precache-manifest.ef0ef77467576d10bfb1975ed3925b58.js": "/gamekaboo/precache-manifest.ef0ef77467576d10bfb1975ed3925b58.js",
+    "service-worker.js": "/gamekaboo/service-worker.js",
+    "static/css/main.572a6e99.chunk.css.map": "/gamekaboo/static/css/main.572a6e99.chunk.css.map",
+    "static/js/2.d52c374a.chunk.js.LICENSE.txt": "/gamekaboo/static/js/2.d52c374a.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/gamekaboo/static/media/jeshoots-com-eCktzGjC-iU-unsplash.4fddd023.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1f0fe41.js",
+    "static/js/2.d52c374a.chunk.js",
+    "static/css/main.572a6e99.chunk.css",
+    "static/js/main.05cf8d85.chunk.js"
+  ]
+}
