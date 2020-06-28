@@ -3,12 +3,16 @@ import "../App.scss"
 
 const header = (props) => (
     <div className="header">
-        <h1 className="header--primary">
-            gamekaboo
-        </h1>
-        <h1 className="header--secondary">
-            a community for everything games
-        </h1>
+        <div className="header__text-box">
+            <h1 className="heading-primary">
+                <span className="heading-primary--main">
+                    gamekaboo
+                </span>
+                <span className="header-primary--sub">
+                    a community for everything games
+                </span>
+            </h1>
+        </div>
     </div>
 )
 

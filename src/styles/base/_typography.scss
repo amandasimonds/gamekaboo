@@ -1,0 +1,41 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.heading-primary{
+    color: white;
+    display: inline-block;
+    backface-visibility: hidden;
+
+    &--main{
+        font-size: 7rem;
+        display: block;
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+
+    &--sub{
+        font-size: 4rem;
+        display: block;
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+}
+
+.navlink{
+        font-size: 1.6rem;
+        color: $color-1;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 10px;
+        text-decoration: none;
+        backface-visibility: hidden;
+
+        &:hover{
+            transform: translateY(-3px);
+            transition: all .3s;
+        }
+}

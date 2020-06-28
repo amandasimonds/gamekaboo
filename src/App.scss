@@ -1,6 +1,11 @@
-@import "./styles/_button.scss";
+//LAYOUT
+@import "./styles/layout/header";
+@import "./styles/layout/navigation";
 
-@import "./styles/layout/_header.scss";
+//VARIABLES
+@import "./styles/abstracts/variables";
 
-@import "./styles/base/_base.scss";
+//BASE
+@import "./styles/base/base";
 @import "./styles/base/animations";
+@import "./styles/base/typography";
