@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.scss"
+import "../styles/main.scss"
 
 const header = (props) => (
     <div className="header">
@@ -12,6 +12,7 @@ const header = (props) => (
                     a community for everything games
                 </span>
             </h1>
+            <div className="controller-shape"></div>
         </div>
     </div>
 )

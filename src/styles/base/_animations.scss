@@ -11,6 +11,23 @@
     }
 }
 
+@keyframes delayMoveInBottom {
+    0%{
+        opacity: 0;
+        transform:translateY(3rem)
+    }
+
+    70%{
+        opacity: 0;
+        transform:translateY(3rem)
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
 @keyframes moveInLeft{
     0%{
         opacity: 0;

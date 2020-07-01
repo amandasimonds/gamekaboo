@@ -1,7 +1,7 @@
 @import "../abstracts/variables";
 
 .header{
-    height: 80vh;
+    height: 50vh;
     background-image:
         linear-gradient(
             to right bottom,
@@ -19,7 +19,13 @@
 
     &__text-box{
         position: relative;
-        top:40%;
+        top:20%;
         text-align: center;
     }
+}
+
+.controller-shape{
+    background-color: white;
+    background-size: cover;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 62% 35%, 39% 35%, 0% 50%);
 }

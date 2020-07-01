@@ -1,10 +1,14 @@
 //COLORS
-
-$color-1:#6a00f4;
-$color-2:#b100e8;
-$color-3:#e500a4;
+$color-1:rgb(106, 0, 245);
+$color-2:rgb(176, 0, 230);
+$color-3:rgb(230, 0, 164);
+$color-gray:rgb(13, 13, 13);
+$color-offwhite: rgb(207, 207, 207);
 
 //FONT
 $default-font-size: 1.6rem;
 
 //GRID
+$grid-width:114rem;
+$gutter-vertical:8rem;
+$gutter-horizontal:4rem;

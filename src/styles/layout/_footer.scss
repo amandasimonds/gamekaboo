@@ -1,0 +1,19 @@
+.footer{
+    height:20vh;
+    background-color: black;
+    color: #d3d3d3;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2rem;
+    font-family: verdana;
+
+    & i{
+        font-size: 3rem;
+        color: $color-2;
+        padding: 0 .5rem 0 .5rem;
+    }
+
+    &__links-container{
+        padding:1.1rem;
+    }
+}

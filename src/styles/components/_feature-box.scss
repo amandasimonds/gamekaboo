@@ -1,0 +1,21 @@
+.feature-box{
+    height:80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+
+    &__text-container{
+        background-color:$color-offwhite;
+        color: $color-gray;
+        position: relative;
+        z-index: 100;
+        height:20vh;
+        top:40%;
+        font-size: 3rem;
+    }
+
+    &::after{
+        background-image: 
+        url("../../img/hannah-rodrigo-mf_3yZnC6ug-unsplash.jpg")
+    }
+}
