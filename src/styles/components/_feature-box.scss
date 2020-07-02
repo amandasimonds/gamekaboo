@@ -3,19 +3,30 @@
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 2px;
+    background-position: center;
 
-    &__text-container{
-        background-color:$color-offwhite;
-        color: $color-gray;
-        position: relative;
-        z-index: 100;
-        height:20vh;
-        top:40%;
-        font-size: 3rem;
+    &::-webkit-scrollbar{
+        display:none;
     }
 
-    &::after{
-        background-image: 
-        url("../../img/hannah-rodrigo-mf_3yZnC6ug-unsplash.jpg")
+    &--text-container{
+        position: relative;
+        height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--heading{
+        background-color: $color-offwhite;
+        width:100%;
+        text-align: center;
+        font-size:2rem;
+        letter-spacing: 1px;
+        line-height: 5rem;
+    }
+
+    &__bg::after{
+        background-image: url("../../img/hannah-rodrigo-mf_3yZnC6ug-unsplash.jpg");
     }
 }

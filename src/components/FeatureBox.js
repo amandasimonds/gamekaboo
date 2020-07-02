@@ -3,9 +3,9 @@ import "../styles/main.scss"
 
 const featureBox = (props) => (
     <div className="feature-box">
-        <div className="feature-box__text-container">
-            Express your interests. Get together with interesting people. Have fun.
-        </div>
+        <section className="feature-box--text-container feature-box__bg parallax">  
+            <span className="feature-box--heading">Express your interests. Get together with interesting people. Have fun.</span>
+        </section>
     </div>
 )
 
