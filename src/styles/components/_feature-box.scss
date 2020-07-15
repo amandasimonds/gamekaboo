@@ -1,32 +1,41 @@
 .feature-box{
-    height:80vh;
+    height:60vh;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 2px;
+    perspective: 1.5px;
     background-position: center;
+    position: relative;
 
     &::-webkit-scrollbar{
         display:none;
     }
 
     &--text-container{
-        position: relative;
-        height:100vh;
+        // position: relative;
+        height:70vh;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     &--heading{
-        background-color: $color-offwhite;
         width:100%;
-        text-align: center;
-        font-size:2rem;
+        text-align: left;
+        font-size:6rem;
+        font-weight: bold;
         letter-spacing: 1px;
-        line-height: 5rem;
+        line-height: 6rem;
+        color:#ffffffd0
     }
 
     &__bg::after{
-        background-image: url("../../img/hannah-rodrigo-mf_3yZnC6ug-unsplash.jpg");
+
+        background-image: 
+        linear-gradient(
+            to left,
+            rgba($color-1, 0.5),
+            rgba($color-3, 0.5)
+        ), 
+        url("../../img/hannah-rodrigo-mf_3yZnC6ug-unsplash.jpg");
     }
 }
